@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+nav {
+    box-shadow: none;
+}
+.brand-logo {
+    font-family: Open Sans;
+    color: black;
+}
+
+nav .brand-logo.center {
+    color: black;
+}
+
+i.material-icons.nav-icons {
+    color: black;
+}
+
+.logo-brackets {
+    font-family: "Open Sans";
+    font-size: 60px;
+}
+
+.btn-floating i {
+    color: black;
+}
