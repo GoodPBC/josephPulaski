@@ -23,114 +23,78 @@
 </head>
 <!--  ================================================    body    ================================================  -->
 <body>
-    <!--  nav  -->
-    <nav class="white">
-        <div class="nav-wrapper">
-            <a href="#" class="brand-logo center"><img src="assets/images/JosephPulaskiLogo.png"></a>
-            <ul class="right hide-on-med-and-down">
-                <li><a href="portfolio.html"><i class="material-icons nav-icons">code</i></a></li>
-                <li><a href="about.html"><i class="material-icons nav-icons">fingerprint</i></a></li>
-                <li><a href="contact.html"><i class="material-icons nav-icons">phone</i></a></li>
-                <li><a href="#"><i class="material-icons nav-icons">more_vert</i></a></li>
-            </ul>
-        </div>
-    </nav>
-    <!--  end nav  -->
+    <header>    <!--  header  -->
+        <nav class="white">
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo center"><img src="assets/images/JosephPulaskiLogo.png"></a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons" style="font-size:48px; color:black;">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="portfolio.html"><i class="material-icons nav-icons tooltipped" data-position="bottom" data-delay="50" data-tooltip="Portfolio"">fingerprint</i></a></li>
+                    <li><a href="resume.html"><i class="material-icons nav-icons tooltipped" data-position="bottom" data-delay="50" data-tooltip="Resume">code</i></a></li>
+                    <li><a href="contact.html"><i class="material-icons nav-icons tooltipped" data-position="bottom" data-delay="50" data-tooltip="Contact"">phone</i></a></li>
+                </ul>
+                <ul class="side-nav" id="mobile-demo">
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
 
+    </header>  <!--   /header  -->
     <br>
     <br>
-
-    <div class="row">
-        <div class="container">
-            <div class="col s12 m4 l4">
-                <div class="card">
-                    <div class="card">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="assets/images/interviewIQ.png">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">InterviewIQ</span>
-                            <p><a href="#">This is a link</a></p>
-                        </div>
-                        <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                            <p>Here is some more information about this product that is only revealed once clicked on.</p>
+    <br>
+    <br>
+    <section class="home-portfolio top">
+        <article class="main-intro">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 m6 offset-m3 l8 offset-l2 center-align">
+                        <p id="bio-para" class="flow-text intro">I am<span id="animate-type"></span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <br>
+        <br>
+        <br>
+        <br>
+        <article id="bio-pic">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 m6 offset-m3 l8 offset-l2 center-align">
+                        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                            <div class="flipper">
+                                <div class="front">
+                                    <img class="circle responsive-img" alt="Joseph Pulaski" src="assets/images/josephPulaski_320px_320px.png">
+                                </div>
+                                <div class="back">
+                                    <a href="portfolio.html"><img class="circle responsive-img" src="assets/images/htmlTag.png"></a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </article>
+    </section>
 
-            <div class="col s12 m4 l4">
-                <div class="card">
-                    <div class="card">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="assets/images/RUMentoring.png">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">RUmentoring</span>
-                            <p><a href="#">This is a link</a></p>
-                        </div>
-                        <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                            <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
-            <div class="col s12 m4 l4">
-                <div class="card">
-                    <div class="card">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="assets/images/BounceBackTemp.jpg">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">BounceBack</span>
-                            <p><a href="#">This is a link</a></p>
-                        </div>
-                        <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                            <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col s12 m4 l4">
-                <div class="card">
-                    <div class="card">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="assets/images/NoPassword.png">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">NoPassword</span>
-                            <p><a href="#">This is a link</a></p>
-                        </div>
-                        <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                            <p>Here is some more information about this product that is only revealed once clicked on.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
     <!--  =================================================  social fab  ================================================  -->
 
     <div class="container">
         <div class="fixed-action-btn vertical">
-            <a class="btn-floating btn-large
-             white">
-                <i class="large material-icons social-fab">person_add</i>
-            </a>
-            <ul>
-                <li><a class="btn-floating white"><img src="assets/images/Linkedin.png" class="responsive-img circle"></a></li>
 
-                <li><a class="btn-floating white"><img src="assets/images/Octocat.png" class="responsive-img circle"></a></li>
-                <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
-                <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
-                <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+            <a class="btn-floating btn-large white"><i class="large material-icons social-fab">person_add</i></a>
+
+            <ul>
+                <li><a href="http://linkedin.com/goodincco" class="btn-floating white tooltipped" data-position="bottom" data-delay="50" data-tooltip="/goodincco"><img src="assets/images/Linkedin.png" class="responsive-img circle"></a></li>
+
+                <li><a href="http://github/GoodPbc" class="btn-floating white tooltipped" data-position="bottom" data-delay="50" data-tooltip="/GoodPBC"><img src="assets/images/Octocat.png" class="responsive-img circle"></a></li>
+
+                <li><a class="btn-floating white tooltipped" data-position="bottom" data-delay="50" data-tooltip="jp@goodinc.co"><img src="assets/images/atEmailIcon.png" class="responsive-img circle"></a></li>
             </ul>
         </div>
     </div>
@@ -142,7 +106,8 @@
 <!--Import jQuery before materialize.js-->
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script type="text/javascript" src="assets/js/materialize.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
-<!--<script>$.backstretch("assets/images/DawnDusk.jpeg");</script>-->
+<script src="assets/js/typed.js"></script>
+<script src="assets/js/app.js"></script>
+
 </body>
 </html>

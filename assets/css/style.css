@@ -32,3 +32,112 @@ i.material-icons.nav-icons {
 .btn-floating i {
     color: black;
 }
+
+.main-intro {
+    /*background: #bbdefb;*/
+}
+
+#bio-para {
+    margin: 15px;
+    font-stretch: expanded;
+    font-size: 32px;
+}
+
+#animate-type {
+    margin: 15px;
+    font-size: 32px;
+}
+/*
+==============================================
+typed Cursor
+==============================================
+*/
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+/*
+==============================================
+/typed Cursor
+==============================================
+*/
+
+
+/*
+==============================================
+/bio image
+==============================================
+*/
+
+/* entire container, keeps perspective */
+.flip-container {
+    perspective: 250px;
+    margin: 0 auto;
+    /*padding-top: 50px;*/
+}
+/* flip the pane when hovered */
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+    transform: rotateY(180deg);
+}
+
+.flip-container, .front, .back {
+    width: 275px;
+    height: 275px;
+
+}
+
+/* flip speed goes here */
+.flipper {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+
+    position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+    backface-visibility: hidden;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+    z-index: 2;
+    /* for firefox 31 */
+    transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+    transform: rotateY(180deg);
+}
+
+
+/*
+==============================================
+//bio image
+==============================================
+*/
+
