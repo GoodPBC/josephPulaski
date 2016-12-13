@@ -5,11 +5,14 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <title>Joseph Pulaski</title>
 
     <!-- material icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
           rel="stylesheet">
+    <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <!-- reset css -->
     <link rel="stylesheet" href="assets/css/reset.css">
     <!-- materialize css -->
@@ -18,29 +21,43 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
+<!--  ================================================    body    ================================================  -->
 <body>
+    <header>    <!--  header  -->
+        <nav class="white">
+            <div class="nav-wrapper">
+                <a href="index.html" class="brand-logo center"><img src="assets/images/JosephPulaskiLogo.png"></a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons" style="font-size:48px; color:black;">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="resume.html"><i class="material-icons nav-icons tooltipped" data-position="bottom" data-delay="50" data-tooltip="Resume">fingerprint</i></a></li>
+                    <li><a href="portfolio.html"><i class="material-icons nav-icons tooltipped" data-position="bottom" data-delay="50" data-tooltip="Portfolio">code</i></a></li>
+                    <li><a href="contact.html"><i class="material-icons nav-icons tooltipped" data-position="bottom" data-delay="50" data-tooltip="Contact"">phone</i></a></li>
+                </ul>
+                <ul class="side-nav" id="mobile-demo">
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>  <!--   /header  -->
+    <br>
+    <br>
+    <br>
+    <br>
 
-
+    <section>
         <div class="row">
             <form class="col s12">
                 <div class="row">
-                    <div class="input-field col s6">
-                        <input placeholder="Placeholder" id="first_name" type="text" class="validate">
-                        <label for="first_name">First Name</label>
-                    </div>
-                    <div class="input-field col s6">
+                    <div class="input-field col offset-s3 col s6">
                         <input id="last_name" type="text" class="validate">
                         <label for="last_name">Last Name</label>
                     </div>
                 </div>
+
                 <div class="row">
-                    <div class="input-field col s12">
-                        <input disabled value="I am not editable" id="disabled" type="text" class="validate">
-                        <label for="disabled">Disabled</label>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="input-field col s12">
+                    <div class="input-field offset-s3 col s6 ">
                         <input id="password" type="password" class="validate">
                         <label for="password">Password</label>
                     </div>
@@ -51,8 +68,15 @@
                         <label for="email">Email</label>
                     </div>
                 </div>
+
             </form>
         </div>
+    </section>
+
+
+
+
+
 
 
 
