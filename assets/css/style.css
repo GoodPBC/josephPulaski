@@ -141,3 +141,30 @@ typed Cursor
 ==============================================
 */
 
+/*
+==============================================
+//resume page
+==============================================
+*/
+.jumbo:hover {
+    padding: 10px;
+}
+
+.resume-hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ecf0f1;
+}
+
+.strengths-right {
+    background: ;
+}
+
+/*
+==============================================
+// end resume page
+==============================================
+*/
